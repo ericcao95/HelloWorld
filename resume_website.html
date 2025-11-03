@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Eric Cao — Resume</title>
+  <meta name="description" content="Resume / CV for Eric Cao — IT Support / DevOps / Systems Administration">
+  <meta property="og:title" content="Eric Cao — Resume">
+  <meta property="og:description" content="Resume / CV for Eric Cao — IT Support / DevOps / Systems Administration">
+  <meta name="theme-color" content="#0f172a">
+  <style>
+    :root{
+      --bg:#0f172a; --card:#ffffff; --muted:#64748b; --accent:#06b6d4;
+      --max-width:900px; --radius:14px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#071024 0%,var(--bg) 100%);color:#0b1220}
+    .wrap{max-width:var(--max-width);margin:40px auto;padding:28px;background:var(--card);border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,.35)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:28px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .row{display:grid;grid-template-columns:1fr 280px;gap:24px;margin-top:20px}
+    .section{padding:18px;border-radius:12px;background:linear-gradient(180deg,#fff 0%,#fbfdff 100%);box-shadow:0 4px 18px rgba(8,15,29,.06)}
+    .contact{font-size:14px;color:var(--muted);line-height:1.6}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2f7;padding:6px 10px;border-radius:999px;font-size:13px;color:#0b1220}
+    .job{margin-bottom:14px}
+    .job h3{margin:0;font-size:15px}
+    .job .meta{color:var(--muted);font-size:13px}
+    footer{margin-top:22px;color:var(--muted);font-size:13px}
+    @media(max-width:880px){.row{grid-template-columns:1fr}.wrap{margin:18px;padding:18px}.avatar{width:72px;height:72px;font-size:22px}}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <div class="avatar" aria-hidden="true">EC</div>
+      <div>
+        <h1>Eric Cao</h1>
+        <div class="subtitle">IT Support • Systems Administration • DevOps — Toronto, Canada</div>
+        <div style="margin-top:10px">
+          <a class="btn" href="./resume.pdf" download>Download PDF</a>
+          <a class="btn" href="./resume.pdf" style="margin-left:8px;opacity:.95;">Open PDF</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="row">
+      <section class="section">
+        <h2 style="margin-top:0">Professional Summary</h2>
+        <p style="color:var(--muted)">Hands-on IT Support and Systems Administrator with 5+ years of experience supporting end users, managing servers, and automating deployments. Comfortable across on-prem and cloud environments (AWS/Azure). Passionate about reliable ops, clear documentation, and fast incident resolution.</p>
+
+        <h3 style="margin-top:18px">Experience</h3>
+        <div class="job">
+          <h3>Application & Cloud Support Engineer — Computershare (Toronto)</h3>
+          <div class="meta">2024 — Present</div>
+          <ul style="margin-top:8px;color:var(--muted)">
+            <li>Support application stacks, troubleshoot incidents, and maintain cloud integrations.</li>
+            <li>Automated common deployments using scripts and CI processes to reduce manual steps by over 40%.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <h3>IT Support Analyst — Former Company</h3>
+          <div class="meta">2019 — 2024</div>
+          <ul style="margin-top:8px;color:var(--muted)">
+            <li>Managed full workstation lifecycle for 200+ employees: imaging, provisioning, and retirement.</li>
+            <li>Maintained 99.9% production uptime for critical systems through proactive monitoring and patching.</li>
+          </ul>
+        </div>
+
+        <h3 style="margin-top:14px">Education</h3>
+        <p style="color:var(--muted);margin:6px 0">Diploma / Degree — Humber College (or replace with your school)</p>
+
+        <h3 style="margin-top:14px">Projects & Highlights</h3>
+        <ul style="color:var(--muted)">
+          <li>Implemented a cloud contact centre using AWS Connect (design, configuration, maintenance).</li>
+          <li>Built CI/CD pipelines (Jenkins) and automated configuration (SaltStack) for internal tooling.</li>
+        </ul>
+      </section>
+
+      <aside class="section">
+        <h3 style="margin-top:0">Contact</h3>
+        <div class="contact">
+          <div>Email: <a href="mailto:eric@example.com">eric@example.com</a></div>
+          <div>Phone: <a href="tel:+14165551234">+1 (416) 555-1234</a></div>
+          <div>Location: Toronto, Canada</div>
+          <div style="margin-top:8px"><a href="#" style="color:var(--accent);text-decoration:none">LinkedIn</a> · <a href="#" style="color:var(--accent);text-decoration:none">GitHub</a></div>
+        </div>
+
+        <h3 style="margin-top:16px">Skills</h3>
+        <div class="skills" aria-label="skills">
+          <span class="skill">Windows Server</span>
+          <span class="skill">Linux (Ubuntu, CentOS)</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Kubernetes</span>
+          <span class="skill">AWS</span>
+          <span class="skill">Terraform</span>
+          <span class="skill">CI/CD</span>
+          <span class="skill">Python</span>
+        </div>
+
+        <h3 style="margin-top:16px">Certifications</h3>
+        <div style="color:var(--muted);font-size:14px">CompTIA A+ · AWS Certified Solutions Architect (optional)</div>
+      </aside>
+    </div>
+
+    <footer>
+      Tip: the "Download PDF" button points to <code>./resume.pdf</code>. Upload a file named <code>resume.pdf</code> next to this page in your S3 bucket.
+    </footer>
+  </main>
+</body>
+</html>
